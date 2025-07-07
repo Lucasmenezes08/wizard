@@ -49,6 +49,7 @@ export default function Step1 ({dadosFormulario , atualizarDados, proximaStep , 
 
         respostaModal('Formulário enviado corretamente!');
 
+
         proximaStep();
     
         
@@ -94,7 +95,9 @@ export default function Step1 ({dadosFormulario , atualizarDados, proximaStep , 
             </section>
 
             <button onClick={handleSubmit}>Avançar</button>
-        
+            
+
+            
         </>
     )
 }
